@@ -16,38 +16,47 @@ document.addEventListener("keydown", (e) => {
 
     switch(e.key) {
         case "1":
+            boom.currentTime = 0;
             boom.play();
         break;
 
         case "2":
+            clap.currentTime = 0;
             clap.play();
         break;
 
         case "3":
+            hihat.currentTime = 0;
             hihat.play();
         break;
 
         case "4":
+            kick.currentTime = 0;
             kick.play();
         break;
 
         case "5":
+            openhat.currentTime = 0;
             openhat.play();
         break;
 
         case "6":
+            ride.currentTime = 0;
             ride.play();
         break;
 
         case "7":
+            snare.currentTime = 0;
             snare.play();
         break;
 
         case "8":
+            tink.currentTime = 0;
             tink.play();
         break;
 
         case "9":
+            tom.currentTime = 0;
             tom.play();
         break;
     }
