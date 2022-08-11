@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-content: center;
     gap: 15px;
+    padding: 10px;
 }
 
 .container .instrument {
@@ -39,7 +40,14 @@ body {
     background: var(--background);
     border: 2px solid var(--borders-static);
     user-select: none;
+    box-shadow: 0 0 .5rem var(--borders-static);
+    transition: all .07s;
+}
 
+.container .active {
+    border-color: var(--border-transform);
+    box-shadow: 1px 1px 1px var(--border-transform);
+    transform: scale(1.1);
 }
 
 .container .instrument p:first-child {
