@@ -29,7 +29,7 @@ const Tom = document.getElementById("tom");
 
 document.addEventListener("keydown", (e) => {
     switch(e.key) {
-        case "1":
+        case "a":
             boom.currentTime = 0;
             boom.play();
 
@@ -40,7 +40,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "2":
+        case "s":
             clap.currentTime = 0;
             clap.play();
 
@@ -51,7 +51,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "3":
+        case "d":
             hihat.currentTime = 0;
             hihat.play();
 
@@ -62,7 +62,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "4":
+        case "f":
             kick.currentTime = 0;
             kick.play();
 
@@ -73,7 +73,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "5":
+        case "g":
             openhat.currentTime = 0;
             openhat.play();
 
@@ -84,7 +84,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "6":
+        case "h":
             ride.currentTime = 0;
             ride.play();
 
@@ -95,7 +95,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "7":
+        case "j":
             snare.currentTime = 0;
             snare.play();
 
@@ -106,7 +106,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "8":
+        case "k":
             tink.currentTime = 0;
             tink.play();
 
@@ -117,7 +117,7 @@ document.addEventListener("keydown", (e) => {
             }, 300);
         break;
 
-        case "9":
+        case "l":
             tom.currentTime = 0;
             tom.play();
 
